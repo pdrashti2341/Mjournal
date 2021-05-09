@@ -1,0 +1,16 @@
+#mainbody {
+    background-color: #f3f4ed;
+}
+
+.nav2 {
+    font-size: 0.5rem;
+    font-family: "Montserrat", sans-serif;
+    width: 100%;
+    background-color: #97e1e4;
+    top: 0%;
+}
+
+.paper {
+    text-decoration: none;
+    color: black;
+}

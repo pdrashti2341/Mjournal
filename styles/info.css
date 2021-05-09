@@ -1,0 +1,36 @@
+.ul_1{
+		list-style-type:none;
+		background-color:rgb(40,40,40);
+		overflow:hidden;
+		width:auto;
+		padding:3px;
+}
+
+.li_1{
+		display:inline;
+		padding:0px 170px 0px 30px;
+		float:right;
+		text-decoration:none;
+}
+
+.link{
+		font-size:16px;
+		color:#3bc3fd;
+		text-decoration:none;
+	 }
+.link:hover{
+			color:rgb(24,116,245);
+		   }
+@media screen and (max-width:767px){
+										.link{
+												font-size:13px;
+											 }
+											 
+										.li_1{
+												padding:0px 20px 0px 10px;
+											 }
+											 
+										.ul_1{
+												padding:1px;
+											 }
+								   }

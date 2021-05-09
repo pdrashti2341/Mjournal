@@ -1,0 +1,132 @@
+input[type=text], select, textarea {
+									  width:100%;
+									  padding: 8px;
+									  border: 1px solid #ccc;
+									  border-radius: 4px;
+									  resize: vertical;
+								   }
+
+input[type=email] {
+					width: 100%;
+					padding: 8px;
+					border: 1px solid #ccc;
+					border-radius: 4px;
+					resize: vertical;
+				  }
+
+input[type=file] {
+					width: 100%;
+					padding: 8px;
+					border: 1px solid #ccc;
+					border-radius: 4px;
+					resize: vertical;
+				  }
+				  
+label {
+		  padding: 8px 8px 8px 0;
+		  display: inline-block;
+		  float:right;
+		  float:right;
+		  font-size:15px;
+		  font-family: "Montserrat", sans-serif;
+	  }
+
+input[type=submit] {
+					  background-color:rgb(30,144,255);
+					  color: white;
+					  padding: 8px 16px;
+					  border: none;
+					  border-radius: 4px;
+					  cursor: pointer;
+					  float:left;
+				   }
+
+input[type=submit]:hover {
+							  background-color:rgb(28,134,238);
+							  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 3px 5px 0 rgba(0, 0, 0, 0.19);
+						 }
+						 
+::-webkit-input-placeholder {
+							  color: rgb(196,196,196);
+							  font-family:montserratlight, Helvetica, Arial, sans-serif;
+							  letter-spacing:2px;
+							  font-size:13px;
+							}
+
+.space	   {
+			  width:90%;
+			  padding:3px 130px 5px;
+			  margin:auto;
+			  margin-top:5px;
+		   } 
+
+form>fieldset{ 
+				border:0;
+				padding:3px;
+			 }
+		  
+.legend1{
+		font-size:19px;
+		background-color:#3bc3fd;
+		color:white;
+		padding:5px 5px;
+		border-radius:4px;
+		text-align:center;
+		width:100%;
+	  }
+	  
+.legend2{
+		font-size:19px;
+		text-align:center;
+}
+
+.column-20 {
+		  float: left;
+		  width: 20%;
+		  margin-top: 6px;
+		}
+
+.column-80 {
+		  float: left;
+		  width: 80%;
+		  margin-top: 6px;
+		}
+		
+.line:after {
+			  content: "";
+			  display: table;
+			  clear: both;
+		   }
+		   
+.asterisk{
+				color:red;
+				padding:7px;
+		 }
+		 
+.space1{
+			width:90%;
+			margin:auto;
+			border:0;
+}
+
+@media screen and (max-width:767px) {
+									  .column-20, .column-80, input[type=submit] {
+																					width: 100%;
+																					margin-top: 0;
+																				 }
+												
+									  .space{
+												padding:0px 15px 5px 5px;
+									  }
+												
+									  label{
+											float:left;
+											font-size:13px;
+										   }
+									  legend{
+												font-size:15px;
+									  }
+									  ::-webkit-input-placeholder {
+																	font-size:13px;
+																  }
+									}
